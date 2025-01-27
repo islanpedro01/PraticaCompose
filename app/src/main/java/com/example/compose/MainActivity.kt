@@ -48,11 +48,11 @@ fun Greeting(modifier: Modifier = Modifier) {
 @Composable
 fun GreetingImage(modifier:Modifier = Modifier) {
     val image = painterResource(R.drawable.bg_compose_background)
-        Image(
-            painter = image,
-            contentDescription = null,
-            modifier = modifier,
-        )
+    Image(
+        painter = image,
+        contentDescription = null,
+        modifier = modifier,
+    )
 
 
 }
